@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-app": {
+    "BlackDogCoffee": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "my-app:build:production"
+              "buildTarget": "BlackDogCoffee:build:production"
             },
             "development": {
-              "buildTarget": "my-app:build:development"
+              "buildTarget": "BlackDogCoffee:build:development"
             }
           },
           "defaultConfiguration": "development"
